@@ -12,7 +12,7 @@
 Requires Rust and Cargo.
 
 ```bash
-git clone <repo_url>
+git clone https://github.com/Manguseqq/mter
 cd mter
 cargo build --release
 ```
