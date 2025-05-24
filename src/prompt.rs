@@ -5,7 +5,6 @@ pub fn create_prompt() -> String {
     let current_dir = std::env::current_dir().unwrap();
     let user = whoami::username();
 
-    // Weź ostatnie dwa foldery z current_dir
     let mut parts = current_dir
         .components()
         .rev()
